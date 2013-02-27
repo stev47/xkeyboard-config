@@ -194,6 +194,7 @@ partial default xkb_types "default" {
 	map[Lock+LevelThree+LevelFive] =  Level7;
         map[Lock+Shift+LevelThree+LevelFive] = Level8;
 
+	preserve[Shift+LevelFive] = Shift;
 	preserve[Lock+LevelThree] = Lock;
 	preserve[Lock+Shift+LevelThree] = Lock;
 	preserve[Lock+LevelFive] = Lock;
