@@ -352,13 +352,13 @@ xkb_symbols "neo_base" {
     key <AE01> { [ 1,                       degree,                  onesuperior,             onesubscript,            ordfeminine,             NoSymbol,                notsign,                 NoSymbol                 ] };
     key <AE02> { [ 2,                       section,                 twosuperior,             twosubscript,            masculine,               NoSymbol,                logicalor,               NoSymbol                 ] };
     key <AE03> { [ 3,                       U2113,                   threesuperior,           threesubscript,          numerosign,              NoSymbol,                logicaland,              NoSymbol                 ] };
-    key <AE04> { [ 4,                       guillemotright,          U203A,                   femalesymbol,            NoSymbol,                NoSymbol,                U22A5,                   NoSymbol                 ] };
+    key <AE04> { [ ISO_Level3_Shift,                       guillemotright,          U203A,                   femalesymbol,            NoSymbol,                NoSymbol,                U22A5,                   NoSymbol                 ] };
     key <AE05> { [ 5,                       guillemotleft,           U2039,                   malesymbol,              periodcentered,          NoSymbol,                U2221,                   NoSymbol                 ] };
     key <AE06> { [ 6,                       dollar,                  cent,                    U26A5,                   sterling,                NoSymbol,                U2225,                   NoSymbol                 ] };
 
     key <AE07> { [ 7,                       EuroSign,                yen,                     U03F0,                   currency,                NoSymbol,                rightarrow,              NoSymbol                 ] };
     key <AE08> { [ 8,                       doublelowquotemark,      singlelowquotemark,      U27E8,                   Tab,                     ISO_Left_Tab,            U221E,                   NoSymbol                 ] };
-    key <AE09> { [ 9,                       leftdoublequotemark,     leftsinglequotemark,     U27E9,                   KP_Divide,               KP_Divide,               variation,               NoSymbol                 ] };
+    key <AE09> { [ ISO_Level3_Shift,                       leftdoublequotemark,     leftsinglequotemark,     U27E9,                   KP_Divide,               KP_Divide,               variation,               NoSymbol                 ] };
     key <AE10> { [ 0,                       rightdoublequotemark,    rightsinglequotemark,    zerosubscript,           KP_Multiply,             KP_Multiply,             emptyset,                NoSymbol                 ] };
 
     key <AE11> { [ minus,                   emdash,                  NoSymbol,                U2011,                   KP_Subtract,             KP_Subtract,             hyphen,                  NoSymbol                 ] };
