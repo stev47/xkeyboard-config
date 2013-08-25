@@ -470,8 +470,16 @@ xkb_symbols "neo" {
     name[Group1]= "German (Neo 2)";
 
     include "shift(both_capslock)"
-    include "level3(caps_switch)"
-    include "level3(bksl_switch)"
+    // include "level3(caps_switch)"
+  key <CAPS> {
+    type[Group1]="ONE_LEVEL",
+    symbols[Group1] = [ VoidSymbol ]
+  };
+    // include "level3(bksl_switch)"
+  key <BKSL> {
+    type[Group1]="ONE_LEVEL",
+    symbols[Group1] = [ VoidSymbol ]
+  };
     include "level5(lsgt_switch)"
     include "level5(ralt_switch)"
 };
