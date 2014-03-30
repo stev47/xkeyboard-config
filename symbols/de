@@ -427,7 +427,7 @@ xkb_symbols "neo_base" {
     // ===============
 
     // The former Numlock key:
-    key <NMLK> { [ Tab,                     ISO_Left_Tab,            equal,                   approxeq,                notequal,                Pointer_EnableKeys,      identical,               NoSymbol                 ] };
+    //key <NMLK> { [ Tab,                     ISO_Left_Tab,            equal,                   approxeq,                notequal,                Pointer_EnableKeys,      identical,               NoSymbol                 ] };
 
     // Topmost row
     // --------------------------------------------------------------
